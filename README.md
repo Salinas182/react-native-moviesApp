@@ -2,7 +2,11 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Dev
+
+1. Clone the project
+2. Install dependencies `npm install`
+3. Clone the .env.template file, rename it to only .env and set the environment variables.
 
 ## Step 1: Start the Metro Server
 
