@@ -18,9 +18,9 @@ export const MoviePoster = ({movie, height = 420, width = 300}: Props) => {
       style={({pressed}) => ({
         width,
         height,
-        marginHorizontal: 10,
+        marginHorizontal: 4,
         paddingBottom: 20,
-        paddingHorizontal: 10,
+        paddingHorizontal: 7,
         opacity: pressed ? 0.9 : 1,
       })}
       onPress={() => navigation.navigate('Details', {movieId: movie.id})}>

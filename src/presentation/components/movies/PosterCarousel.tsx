@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {View} from 'react-native';
 import {Movie} from '../../../core/entities/movie.entity';
 import {ScrollView} from 'react-native-gesture-handler';
 import {MoviePoster} from './MoviePoster';
